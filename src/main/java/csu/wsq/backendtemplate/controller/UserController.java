@@ -6,21 +6,21 @@ import csu.wsq.backendtemplate.annotation.AuthCheck;
 import csu.wsq.backendtemplate.common.BaseResponse;
 import csu.wsq.backendtemplate.common.ErrorCode;
 import csu.wsq.backendtemplate.common.exception.BusinessException;
-import csu.wsq.backendtemplate.common.ThrowUtils;
+import csu.wsq.backendtemplate.common.utils.ThrowUtils;
 import csu.wsq.backendtemplate.common.utils.ResultUtils;
 import csu.wsq.backendtemplate.model.dto.user.*;
 import csu.wsq.backendtemplate.model.entity.User;
 import csu.wsq.backendtemplate.model.vo.LoginUserVO;
 import csu.wsq.backendtemplate.model.vo.UserVO;
 import csu.wsq.backendtemplate.service.UserService;
-import jakarta.annotation.Resource;
-import jakarta.servlet.http.HttpSession;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;
 import org.springframework.util.DigestUtils;
 import org.springframework.web.bind.annotation.*;
 import org.apache.commons.lang3.StringUtils;
 
+import javax.annotation.Resource;
+import javax.servlet.http.HttpSession;
 import java.util.List;
 
 

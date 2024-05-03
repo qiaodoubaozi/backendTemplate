@@ -12,14 +12,14 @@ import csu.wsq.backendtemplate.model.entity.User;
 import csu.wsq.backendtemplate.model.vo.LoginUserVO;
 import csu.wsq.backendtemplate.model.vo.UserVO;
 import csu.wsq.backendtemplate.service.UserService;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpSession;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;
 import org.springframework.util.DigestUtils;
 
+
+import javax.servlet.http.HttpSession;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;

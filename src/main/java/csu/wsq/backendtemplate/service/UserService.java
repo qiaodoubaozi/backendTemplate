@@ -6,9 +6,9 @@ import csu.wsq.backendtemplate.model.dto.user.UserQueryRequest;
 import csu.wsq.backendtemplate.model.entity.User;
 import csu.wsq.backendtemplate.model.vo.LoginUserVO;
 import csu.wsq.backendtemplate.model.vo.UserVO;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpSession;
 
+
+import javax.servlet.http.HttpSession;
 import java.util.List;
 
 

@@ -1,4 +1,4 @@
-package csu.wsq.backendtemplate.common;
+package csu.wsq.backendtemplate.common.utils;
 
 import csu.wsq.backendtemplate.common.ErrorCode;
 import csu.wsq.backendtemplate.common.exception.BusinessException;
